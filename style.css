@@ -46,7 +46,8 @@ header {
 	cursor: pointer;
 }
 
-.first-section {
+.first-section,
+.sixth-section {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -58,6 +59,10 @@ header {
 	font-size: 2.8rem;
 }
 
+.sixth-section h2 {
+	font-size: 2rem;
+}
+
 .first-section p {
 	width: 550px;
 	text-align: center;
@@ -66,7 +71,8 @@ header {
 	line-height: 1.6;
 }
 
-.first-section button {
+.first-section button,
+.sixth-section button {
 	background: var(--pink);
 	color: white;
 	border: none;
@@ -111,20 +117,25 @@ header {
 	align-items: center;
 }
 
-.third-section h2 {
+.third-section h2,
+.fourth-section h2,
+.fifth-section h2 {
 	margin-bottom: 18px;
 }
 
-.third-section img {
+.third-section img,
+.fourth-section img,
+.fifth-section img {
 	height: 350px;
 	width: 430px;
 	margin-bottom: 30px;
 }
 
-.text {
+.text p {
 	height: 150px;
 	width: 590px;
 	font-family: var(--secondary-font);
+	line-height: 1.6;
 }
 
 .title-section {
@@ -133,4 +144,29 @@ header {
 
 .image-1 {
 	background-color: var(--very-pale-blue);
+}
+
+.fourth-section {
+	display: flex;
+	background: white;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.fifth-section {
+	display: flex;
+	background: var(--very-pale-blue);
+	margin-top: -10px;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.button-sixth-section {
+	margin-top: 40px;
+}
+
+.sixth-section {
+	margin-top: 50px;
 }
