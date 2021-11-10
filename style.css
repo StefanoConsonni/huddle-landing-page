@@ -170,3 +170,41 @@ header {
 .sixth-section {
 	margin-top: 50px;
 }
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 490px;
+	background-color: var(--very-dark-cyan);
+	margin-top: -10px;
+}
+
+.text-white {
+	color: white;
+	font-family: var(--secondary-font);
+}
+
+.contacts {
+	width: 500px;
+	margin: auto 70px;
+}
+
+.subscribe-button {
+	background: var(--pink);
+	border: none;
+	border-radius: 5px;
+	padding: 6px 26px;
+	cursor: pointer;
+}
+
+.form-input {
+	height: 39px;
+	width: 300px;
+	border: none;
+	border-radius: 5px;
+}
+
+.newsletter p {
+	width: 420px;
+}
