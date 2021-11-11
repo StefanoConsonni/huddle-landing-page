@@ -43,7 +43,13 @@ header {
 	border-radius: 25px;
 	border: solid 2px var(--pink);
 	width: 150px;
+	box-shadow: 1px 1px 15px 0px rgba(245, 198, 222, 1);
 	cursor: pointer;
+}
+
+.trial-button:hover {
+	color: var(--light-pink);
+	border: solid 2px var(--light-pink);
 }
 
 .first-section,
@@ -83,6 +89,12 @@ header {
 	font-family: var(--secondary-font);
 	box-shadow: -7px 9px 10px -3px rgba(189, 174, 174, 0.75);
 	cursor: pointer;
+}
+
+.first-section button:hover,
+.sixth-section button:hover {
+	background: var(--light-pink);
+	transition: 0.2s;
 }
 
 .screen-mockups {
@@ -205,11 +217,17 @@ header {
 	cursor: pointer;
 }
 
+.subscribe-button:hover {
+	background: var(--light-pink);
+	transition: 0.2s;
+}
+
 .form-input {
 	height: 39px;
 	width: 300px;
 	border: none;
 	border-radius: 5px;
+	padding-left: 7px;
 }
 
 .newsletter p {
@@ -247,4 +265,9 @@ header {
 	margin-right: 18px;
 	font-size: 40px;
 	cursor: pointer;
+}
+
+.social-icon:hover {
+	color: rgb(59, 186, 245);
+	transition: 0.2s;
 }
