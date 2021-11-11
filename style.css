@@ -83,8 +83,8 @@ header {
 	color: white;
 	border: none;
 	width: 340px;
-	height: 52px;
-	border-radius: 25px;
+	height: 58px;
+	border-radius: 30px;
 	font-weight: 600;
 	font-family: var(--secondary-font);
 	box-shadow: -7px 9px 10px -3px rgba(189, 174, 174, 0.75);
